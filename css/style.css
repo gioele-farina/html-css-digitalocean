@@ -163,6 +163,15 @@ h2 {
 
 /* scroll2 */
 
+.scroll2 #carosello2 {
+  min-width: 270px;
+  max-width: 600px;
+  margin: auto;
+  min-height: 300px;
+  background-color: white;
+  text-align: center;
+}
+
 /* get-started */
 #get-started {
   background-color: #0043C1;
