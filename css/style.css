@@ -105,6 +105,9 @@
 }
 
 /* spot1 */
+#spot1 .spot-up {
+  text-align: center;
+}
 
 #spot1 ul {
   display: inline-block;
@@ -116,6 +119,17 @@
 /* scroll1 */
 .scroll {
   background-color: #F3F5F9;
+  text-align: center;
+}
+
+.carosello {
+  padding: 50px;
+}
+
+.scroll1 #carousel-example-generic {
+  min-width: 270px;
+  max-width: 600px;
+  margin: auto;
 }
 
 /* spot2 */
