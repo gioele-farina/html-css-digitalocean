@@ -1,8 +1,3 @@
-/* <div class="col-xs-12 col-md-12 col-lg-12">
-
-</div> */
-
-
 /* DEBUG:  */
 [class*="col-"] {
   min-height: 50px;
@@ -25,4 +20,16 @@
 
 .scroll {
   background-color: #F3F5F9;
+}
+
+#spot3 {
+  background-color: #0043C1;
+}
+
+#get-started {
+  background-color: #0043C1;
+}
+
+footer {
+  background-color: #031C4E;
 }
