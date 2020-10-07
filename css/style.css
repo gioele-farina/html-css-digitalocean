@@ -6,6 +6,11 @@
 
  /*fine DEBUG:  */
 
+/* regole generali */
+h2 {
+  text-align: center;
+}
+
 /* nav */
 
 #nav_background {
@@ -132,15 +137,28 @@
   margin: auto;
 }
 
-/* spot2 */
-#spot2 h2 {
-  text-align: center;
-}
-
-
 /* spot3 */
 #spot3 {
   background-color: #0043C1;
+  color: white;
+}
+
+.spot3_riga {
+  border-bottom: 1px solid white;
+}
+
+#spot3 .row [class*="col-"] .spot3_riga:last-child {
+  border-bottom: 0;
+}
+
+.spot3_riga span:nth-child(2) {
+  color: #BAC8E9;
+  padding-left: 50px;
+}
+
+.spot3_riga a {
+  color: #00D5D1;
+  float: right;
 }
 
 /* scroll2 */
