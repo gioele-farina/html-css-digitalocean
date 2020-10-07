@@ -16,9 +16,37 @@
   padding-left: 45px;
 }
 
+/* sovrascrittura nav bootstrap */
+
+#nav_background .navbar-default {
+  margin-bottom: 0;
+  background-color: white;
+  border: 0;
+}
+
+#nav_background .navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+/* hamburgher */
+#nav_background .navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+#signup_button {
+  border-color: #004AFF;
+  background-color: white;
+}
+
 /* jumbotrone */
 #jumbotrone {
-  background-color: #004AFF;
+  background-image: url(../img/jumbo.jpg);
+  background-size: contain;
+  background-position: bottom;
+}
+
+.jumbo_content {
+  min-height: 350px;
 }
 
 /* partners */
