@@ -1,0 +1,19 @@
+/* DEBUG:  */
+[class*="col-"] {
+  min-height: 50px;
+  border: 1px solid black;
+}
+
+ /*fine DEBUG:  */
+
+#nav_background {
+  background-color: white;
+}
+
+#jumbotrone {
+  background-color: #004AFF;
+}
+
+#partners {
+  background-color: #F3F5F9;
+}
