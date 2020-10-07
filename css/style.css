@@ -210,9 +210,17 @@ h2 {
 /* footer */
 footer {
   background-color: #031C4E;
+  color: white;
 }
 
+.socials {
+  list-style: none;
+  padding: 0;
+}
 
+.socials li {
+  display: inline-block;
+}
 
 
 /* Small devices (tablets, 768px and up) */
