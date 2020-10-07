@@ -181,13 +181,6 @@ h2 {
   display: none;
 }
 
-.puntini_carosello {
-  position: absolute;
-  left: 50%;
-  bottom: -25px;
-  transform: translate(-50% , 0);
-}
-
 .puntini_carosello span {
   display: inline-block;
   width: 8px;
@@ -204,6 +197,14 @@ h2 {
 /* get-started */
 #get-started {
   background-color: #0043C1;
+  color: white;
+  text-align: center;
+}
+
+.get_started_button {
+  color: #006AFF;
+  background-color: white;
+  border-color: black;
 }
 
 /* footer */
@@ -215,10 +216,7 @@ footer {
 
 
 /* Small devices (tablets, 768px and up) */
-/* Da modificare direttamente nel css base */
-
-/* Medium devices (desktops, 992px and up) */
-@media all and (min-width: 992px) {
+@media all and (min-width: 768px) {
 
   /* scroll2 */
   #carosello2 {
@@ -242,6 +240,11 @@ footer {
     font-size: 25px;
     display: block;
   }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 992px) {
 
 }
 
