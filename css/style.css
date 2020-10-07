@@ -6,30 +6,60 @@
 
  /*fine DEBUG:  */
 
+/* nav */
+
 #nav_background {
   background-color: white;
 }
 
+#logo {
+  max-height: 100%;
+  width: auto;
+}
+
+/* jumbotrone */
 #jumbotrone {
   background-color: #004AFF;
 }
 
+/* partners */
 #partners {
   background-color: #F3F5F9;
 }
 
+/* spot1 */
+
+/* scroll1 */
 .scroll {
   background-color: #F3F5F9;
 }
 
+/* spot2 */
+
+/* spot3 */
 #spot3 {
   background-color: #0043C1;
 }
 
+/* scroll2 */
+
+/* get-started */
 #get-started {
   background-color: #0043C1;
 }
 
+/* footer */
 footer {
   background-color: #031C4E;
 }
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+/* Da modificare direttamente nel css base */
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 992px) { }
+/* Large devices (large desktops, 1200px and up) */
+@media all and (min-width: 1200px) { }
