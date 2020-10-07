@@ -1,3 +1,8 @@
+/* <div class="col-xs-12 col-md-6 col-lg-6">
+
+</div> */
+
+
 /* DEBUG:  */
 [class*="col-"] {
   min-height: 50px;
@@ -15,5 +20,9 @@
 }
 
 #partners {
+  background-color: #F3F5F9;
+}
+
+.scroll {
   background-color: #F3F5F9;
 }
