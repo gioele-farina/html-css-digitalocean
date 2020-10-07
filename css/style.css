@@ -91,6 +91,12 @@
 /* partners */
 #partners {
   background-color: #F3F5F9;
+  text-align: center;
+}
+
+#partners img {
+  max-width: 100%;
+  max-height: 60px;
 }
 
 /* spot1 */
