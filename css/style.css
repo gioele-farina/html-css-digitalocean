@@ -181,6 +181,26 @@ h2 {
   display: none;
 }
 
+.puntini_carosello {
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  transform: translate(-50% , 0);
+}
+
+.puntini_carosello span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #006AFF;
+  border-radius: 50%;
+}
+
+.puntini_carosello span:first-child {
+  background-color: #006AFF;
+}
+
+
 /* get-started */
 #get-started {
   background-color: #0043C1;
