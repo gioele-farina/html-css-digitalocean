@@ -339,7 +339,11 @@ h2 {
 /* footer */
 footer {
   background-color: #031C4E;
-  color: white;
+  color: #8B94A9;
+}
+
+footer a {
+  color: #8B94A9;
 }
 
 footer ul {
@@ -350,12 +354,23 @@ footer ul {
 
 .socials li {
   display: inline-block;
+  padding-right: 10px;
+}
+
+footer ul li:first-child {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 8px;
 }
 
 .contenuto_footer {
   padding-top: 35px;
 }
 
+footer img {
+  height: 50px;
+  padding-bottom: 10px;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media all and (min-width: 768px) {
