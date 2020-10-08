@@ -267,6 +267,20 @@ h2 {
   float: right;
 }
 
+#spot3 h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.tabella1_spot3,
+.tabella2_spot3{
+  padding: 10px;
+}
+
+.tabella2_spot3 {
+  margin-bottom: 25px;
+}
+
 /* scroll2 */
 
 .scroll2 #carosello2 {
@@ -280,11 +294,25 @@ h2 {
 
 .carosello_logo {
   max-width: 80%;
+  margin-bottom: 10px;
 }
 
 #carosello2 .fa-chevron-left,
 #carosello2 .fa-chevron-right {
   display: none;
+}
+
+.virgolette {
+  height: 10px;
+}
+
+.carosello2_centred {
+  padding-top: calc((300px - 182.8px) / 2);
+}
+
+.scroll2 h2 {
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 /* get-started */
@@ -294,11 +322,19 @@ h2 {
   text-align: center;
 }
 
+
+#get-started h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 .get_started_button {
   color: #006AFF;
   background-color: white;
   border-color: black;
+  margin-bottom: 30px;
 }
+
 
 /* footer */
 footer {
@@ -314,6 +350,10 @@ footer ul {
 
 .socials li {
   display: inline-block;
+}
+
+.contenuto_footer {
+  padding-top: 35px;
 }
 
 
