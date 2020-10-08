@@ -253,13 +253,20 @@ h2 {
   border-bottom: 1px solid white;
 }
 
+.spot3_riga * {
+  display: inline-block;
+}
+
 #spot3 .row [class*="col-"] .spot3_riga:last-child {
   border-bottom: 0;
 }
 
-.spot3_riga span:nth-child(2) {
+
+.spot3_riga > div:nth-child(2) {
   color: #BAC8E9;
-  padding-left: 50px;
+  width: 50%;
+  max-width: 250px;
+  text-align: center;
 }
 
 .spot3_riga a {
@@ -375,6 +382,18 @@ footer img {
 /* Small devices (tablets, 768px and up) */
 @media all and (min-width: 768px) {
 
+  /* spot3 */
+  .spot3_riga span:nth-child(2) {
+    color: #BAC8E9;
+    padding-left: 50px;
+  }
+
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 992px) {
+
   /* scroll1 */
 
   #carosello1 {
@@ -428,14 +447,8 @@ footer img {
   }
 }
 
-
-/* Medium devices (desktops, 992px and up) */
-@media all and (min-width: 992px) {
-
-}
-
-/* collasso navbar fino a 992px */
-@media (max-width: 992px) {
+/* collasso navbar fino a che non è lg */
+@media (max-width: 1200px) {
     .navbar-header {
         float: none;
     }
