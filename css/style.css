@@ -11,6 +11,12 @@ h2 {
   text-align: center;
 }
 
+[class*="col-"] * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* nav */
 
 #nav_background {
@@ -55,6 +61,19 @@ h2 {
   color: white;
 }
 
+.jumbo_content h1 {
+  font-weight: 600;
+  padding-top: 25px;
+}
+
+.jumbo_content p {
+  padding-bottom: 25px;
+}
+
+.jumbo_content.right h3 {
+  margin: 0;
+}
+
 .jumbo_content form {
   color: black;
 }
@@ -90,7 +109,8 @@ h2 {
 }
 
 .jumbo_content.right {
-  padding: 50px 0;
+  padding: 25px 0;
+  margin-top: 25px;
 }
 
 /* partners */
@@ -228,6 +248,7 @@ footer {
 footer ul {
   list-style: none;
   padding: 0;
+  display: inline-block;
 }
 
 .socials li {
