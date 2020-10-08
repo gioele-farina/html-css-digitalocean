@@ -70,8 +70,24 @@ h2 {
   padding-bottom: 25px;
 }
 
-.jumbo_content.right h3 {
-  margin: 0;
+.jumbo_content.right .registrati {
+  padding: 15px;
+}
+
+.jumbo_content.right h3:first-child {
+  margin-top: 5px;
+}
+
+.jumbo_content.right .special_h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #006AFF;
+}
+
+.jumbo_content.right p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .jumbo_content form {
@@ -80,6 +96,9 @@ h2 {
 
 .jumbo_content form input {
   width: 100%;
+  margin: 3px 0;
+  border: 1px solid #EEEEEE;
+  border-radius: 5px;
 }
 
 .jumbo_content .create_account {
@@ -110,7 +129,6 @@ h2 {
 
 .jumbo_content.right {
   padding: 25px 0;
-  margin-top: 25px;
 }
 
 /* partners */
