@@ -154,7 +154,8 @@ h2 {
 
 #partners a {
   color: #006AFF;
-  line-height: 50px;
+  display: block;
+  padding-bottom: 25px;
 }
 
 /* spot1 */
@@ -347,6 +348,7 @@ h2 {
 footer {
   background-color: #031C4E;
   color: #8B94A9;
+  padding-top: 35px;
 }
 
 footer a {
@@ -371,7 +373,7 @@ footer ul li:first-child {
 }
 
 .contenuto_footer {
-  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 footer img {
